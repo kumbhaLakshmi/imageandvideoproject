@@ -21,7 +21,6 @@ function App() {
             path="/"
             element={<UploadPage1/>} // Add this line
           >
-            {/* <Route index element={<UploadPage1 />} /> */}
           </Route>
           <Route path="/listing" element={<ListingPage />} />
           <Route path="/videodisplay/*" element={<VideoDisplayPage3 />} />
